@@ -9,17 +9,6 @@ It includes:
 - **QuadraticSolver**: A class library with a single `Solve(a, b, c)` method.
 - **QuadraticSolver.Tests**: An xUnit test suite verifying “no roots,” “one root,” “two roots,” and invalid‐input cases.
 
-## Project Structure
-
-QuadraticSolverExercise/
-├─ QuadraticSolver/              # Class library
-│   └─ QuadraticEquation.cs
-├─ QuadraticSolver.Tests/        # xUnit tests
-│   └─ QuadraticEquationTests.cs
-├─ .gitignore
-├─ README.md                     # (this summary)
-└─ GitBranchingEvidence.pdf       # Screenshots from Learn Git Branching
-
 ## Solver Code (in QuadraticEquation.cs)
 - Checks that `a != 0`; throws `ArgumentException` otherwise.
 - Computes `D = b² – 4ac`.
