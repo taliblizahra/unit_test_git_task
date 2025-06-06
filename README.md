@@ -45,10 +45,11 @@ This approach keeps tests concise and clear.
    cd QuadraticSolver
    dotnet build
 
-	3.	Run tests:
+3.	Run tests:
 
-cd ../QuadraticSolver.Tests
-dotnet test
+	```bash
+	cd ../QuadraticSolver.Tests
+	dotnet test
 
 
 
